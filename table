@@ -1,0 +1,76 @@
+		<table class="table_">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>class</th>
+					<th>division</th>
+					<th>item</th>
+					<th>grade</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>navaneeth</td>
+					<td>10</td>
+					<td>a</td>
+					<td>dance</td>
+					<td>b</td>
+				</tr>
+				<tr>
+					<td>devika</td>
+					<td>9</td>
+					<td>h</td>
+					<td>song</td>
+					<td>a</td>
+				</tr>
+				<tr>
+					<td>Dyuthi</td>
+					<td>10</td>
+					<td>a</td>
+					<td>mimicry</td>
+					<td>a</td>
+				</tr>
+				<tr>
+					<td>nandana</td>
+					<td>8</td>
+					<td>c</td>
+					<td>dance</td>
+					<td>a</td>
+				</tr>
+				<tr>
+					<td>bavya</td>
+					<td>11</td>
+					<td>c</td>
+					<td>song</td>
+					<td>d</td>
+				</tr>
+			</tbody>
+		</table>
+
+
+
+
+
+
+th,td{
+	text-transform:capitalize;}
+.table_{
+    border: solid 1px #000000;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font:sans-serif;
+}
+.table_ thead th {
+    background-color: #acff00;
+    border: solid 1px #acff00;
+    color: #000000;
+    padding: 10px;
+    text-align: left;
+}
+.table_ tbody td {
+    border: solid 1px #acff00;
+    color: #00ff88;
+    padding: 10px;
+}
+
+
