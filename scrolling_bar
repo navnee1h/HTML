@@ -1,0 +1,36 @@
+<div class="scrolling">
+  <h2><a href="#">Click here‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ Hii </a></h2>
+</div>
+
+
+.scrolling{
+	position:relative;
+	background-color: #000000;
+	overflow:hidden;
+	width:100%;
+	text-align:center;
+}
+.scrolling h2 {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	padding-top:0;
+	font-size: 20px;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	transform: translateX(100%);
+	animation: scrolling 18s ease-out infinite;
+}
+@keyframes scrolling {
+	0% {
+		transform: translateX(100%);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+}
+      
+      
+      
